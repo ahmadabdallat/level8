@@ -21,10 +21,11 @@ img {
     width: 20%;
   }
   .grid-container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     padding: 20px;
+      
   }
   
   .grid-list {
